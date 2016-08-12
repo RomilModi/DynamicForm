@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_focused="true">-->
+    <!--<shape>-->
+    <!--<gradient android:angle="270" android:endColor="#7E3117" android:startColor="#7E3817" />-->
+    <!--<stroke android:width="1dp" android:color="#646060" />-->
+    <!--<corners android:bottomLeftRadius="0.1dp" android:bottomRightRadius="6dp" android:topLeftRadius="6dp" android:topRightRadius="0.1dp" />-->
+    <!--<padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />-->
+    <!--</shape>-->
+    <!--</item>-->
+
+    <!--<item>-->
+        <!--<shape>-->
+            <!--<gradient android:angle="270" android:endColor="#FF009900" android:startColor="#99009900" />-->
+            <!--<stroke android:width="0.5dp" android:color="#646060" />-->
+            <!--<corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" />-->
+            <!--<padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <item android:state_focused="true">
+        <shape>
+            <gradient android:angle="270" android:endColor="#7E3117" android:startColor="#7E3817" />
+            <stroke android:width="1dp" android:color="#EC8312" />
+            <corners android:bottomLeftRadius="0.1dp" android:bottomRightRadius="6dp" android:topLeftRadius="6dp" android:topRightRadius="0.1dp" />
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:angle="270" android:endColor="#EC8312" android:startColor="#EC8312" />
+            <stroke android:width="2dp" android:color="#FFFFFF" />
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:topLeftRadius="6dp" android:topRightRadius="6dp" />
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+        </shape>
+    </item>
+</selector>
